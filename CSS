@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+ }
+ 
+ #main-1{
+     background-image: url("f:\Netflix\Title-Image.png");
+     background-size: cover;
+     display: block;
+     justify-content: center;
+ }
+ 
+ 
+ #logo{
+     position: relative;
+     text-align: left;
+     background-size: cover;
+     height: 38px;
+     width: 50px;
+ }
+ 
+ #logo-text{
+     color: black;
+     word-spacing: 10px;
+     text-align: center;
+     
+ 
+ }
+ 
+ #profile{
+     position: relative;
+     text-align: right;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #main-1{
+     align-items: baseline;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     height: 100vh;
+     width: 94vw;
+ }
+ 
