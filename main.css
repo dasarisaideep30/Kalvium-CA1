@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("Title-Image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#main-logo{
+    padding: 20px 30px 10px 20px;
+    width: 180px;
+}
+
+#Body{ 
+    display: flex;
+
+}
+#nav-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    word-spacing: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+#nav-icon{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+#Netflix-svg{
+    position: absolute;
+}
