@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("image/Title-Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    
+}
+
+#main-logo{
+    padding: 20px 30px 10px 20px;
+    width: 180px;
+}
+
+#Body{ 
+    display: flex;
+}
+
+#nav-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    word-spacing: 20px;
+    color: white;
+    font-weight: bolder;
+    
+
+}
+
+#nav-icon{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+#svg{
+    height: 40px;
+    position: absolute;
+    left: 45px;
+    top: 450px;
+}
+
+#Show{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 80px;
+    top: 460px;
+}
+
+#MAID{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 35px;
+    top: 490px;
+    font-size: 120px;
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 45px;
+    border-radius: 12%;
+    position: absolute;
+    top: 630px;
+}
+
+#button1{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-left: 178px;
+    border-radius: 12%;
+    position: absolute;
+    top: 630px;
+    background-color: rgba(247, 239, 239, 0.348);
+}
+
+#seeagain{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 45px;
+    top: 720px;
+    font-size: 15px;
+}
+
+#rightarrow{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 135px;
+    top: 720px;
+}
+
+#first{
+    display: flex;
+    position: absolute;
+    top: 780px;
+    gap: 30px;
+    padding: 5px;
+    left: 35px;
+}
+
+#top{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 45px;
+    top: 990px;
+}
+
+#rightarrow2{
+    position: absolute;
+    left: 210px;
+}
+
+#second{
+    position: absolute;
+    padding-left: 5px;
+    top: 1030px;
+}
+
+#trending{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 45px;
+    top: 1300px;
+    font-size: 15px;
+}
+
+#rightarrow3{
+    position: absolute;
+    left: 80px;
+}
+
+#third{
+    display: flex;
+    position: absolute;
+    top: 1340px;
+    gap: 30px;
+    padding: 5px;
+    left: 35px;
+}
+
+#Scifi{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 45px;
+    top: 1530px;
+    font-size: 15px;
+}
+
+#forth{
+    display: flex;
+    position: absolute;
+    top: 1570px;
+    gap: 30px;
+    padding: 5px;
+    left: 35px;
+}
+
+.last{
+    display: flex;
+    position: absolute;
+    left: 280px;
+    top: 1820px;
+    gap: 17px;
+}
+
+#part1{
+    position: absolute;
+    left: 280px;
+    top: 1850px;
+    color: white;
+    font-size: large;
+}
+
+#part2{
+    position: absolute;
+    left: 590px;
+    top: 1820px;
+    color: white;
+    font-size: large;
+}
+
+#part3{
+    position: absolute;
+    left: 900px;
+    top: 1820px;
+    color: white;
+    font-size: large;
+}
+
+#part4{
+    position: absolute;
+    left: 1210px;
+    top: 1820px;
+    color: white;
+    font-size: large;
+}
+
+#hizmet{
+    position: absolute;
+    left: 280px;
+    top: 1950px;
+    background-color: black;
+    color: white;
+}
